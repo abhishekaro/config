@@ -3,6 +3,7 @@
     "apiVersion": "5.6",
     "keepAlive": true,
     "requestTimeout": "120000",
+    "node": "http://localhost:9200",
     "hosts": [{
       "env": "development",
       "protocol": "http",
@@ -36,7 +37,7 @@
     "accessLog": "common",
     "textAnalyzer": "libpostal",
     "host": "http://pelias.mapzen.com/",
-    "indexName": "pelias",
+    "indexName": "osm",
     "version": "1.0",
     "targets": {
       "auto_discover": false,
@@ -70,7 +71,7 @@
     }
   },
   "schema": {
-    "indexName": "pelias"
+    "indexName": "osm"
   },
   "logger": {
     "level": "debug",
